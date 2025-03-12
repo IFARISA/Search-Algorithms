@@ -1,0 +1,13 @@
+Sorted from Fastest to Slowest (on Average):
+
+1- Quick Sort → O(n log n) (Fast in practice due to low constant factors)
+
+2- Merge Sort → O(n log n) (Stable but requires extra space)
+
+3- Heap Sort → O(n log n) (Less cache-friendly than Quick Sort)
+
+4- Insertion Sort → O(n²) (Efficient for nearly sorted data, O(n) in best case)
+
+5- Selection Sort → O(n²) (Slower than Insertion Sort in most cases)
+
+6- Bubble Sort → O(n²) (One of the slowest; optimized versions exist)
