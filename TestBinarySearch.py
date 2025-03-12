@@ -7,7 +7,7 @@ start = time.time()
 arr = np.array([])
 for i in range(1999):
     arr = np.append(arr, np.random.randint(1, 1999))
-print(f'The array: {arr}')
+
 target = 105
 result = binary_search(arr, target)
 

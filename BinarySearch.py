@@ -1,9 +1,3 @@
-import time
-import numpy as np
-import random
-
-start = time.time()
-
 def binary_search(arr, target):
 
     arr.sort()
